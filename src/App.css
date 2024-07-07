@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.error {
+  color: red;
+  margin-top: 32px;
+  display: none;
+}
+
+.error.visible {
+  display: block;
+  color: red;
+}
